@@ -1,0 +1,40 @@
+.contact-details {
+  @include for-mobile-layout {
+    max-width: 300px;
+    main {
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    footer {
+      justify-content: center;
+    }
+  }
+  background-color: $clr3;
+  padding: 1rem;
+  border-radius: 7px;
+  main {
+    gap: 1rem;
+    flex-wrap: wrap;
+    img {
+      background-color: $clr2;
+      border-radius: 50%;
+      width: 150px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  footer {
+    justify-content: flex-end;
+    button {
+      @include btn1;
+      &:last-child {
+        background-color: $clr1;
+        &:hover {
+          background-color: #f5ad56;
+        }
+      }
+    }
+  }
+}

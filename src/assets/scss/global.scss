@@ -1,0 +1,39 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+
+// Basics
+@import 'basics/typography';
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/modals';
+@import 'basics/animations';
+
+// Pages
+@import 'pages/signup';
+@import 'pages/homePage';
+@import 'pages/contactPage';
+@import 'pages/contactDetails';
+@import 'pages/contactEdit';
+@import 'pages/transferFund';
+
+// Components
+@import 'cmps/header';
+@import 'cmps/moveList';
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+  text-transform: capitalize;
+  overflow: hidden;
+  margin-bottom: 2rem;
+
+  .chart {
+    margin-bottom: 4rem;
+  }
+}

@@ -1,0 +1,16 @@
+.App-header {
+  background-color: $clr1;
+  padding: 1rem;
+  width: 100%;
+  gap: 1rem;
+  a h3 {
+    color: $clr2;
+  }
+  img {
+    width: 35px;
+    margin-inline-end: 1rem;
+  }
+  nav {
+    gap: 1rem;
+  }
+}

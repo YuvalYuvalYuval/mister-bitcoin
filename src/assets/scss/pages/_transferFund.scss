@@ -1,0 +1,9 @@
+.transfer-fund {
+  gap: 1rem;
+  background-color: blueviolet;
+  padding: 1rem;
+  border-radius: 5px;
+  button {
+    @include btn1;
+  }
+}

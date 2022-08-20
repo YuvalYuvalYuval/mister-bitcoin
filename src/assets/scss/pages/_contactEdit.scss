@@ -1,0 +1,30 @@
+.contact-edit {
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 150px;
+    background-color: $clr2;
+    margin-bottom: 1rem;
+  }
+  form {
+    font-size: 1.2rem;
+    gap: 1rem;
+    input {
+      padding: 0.5rem 1rem;
+      border-radius: 3px;
+      border: none;
+    }
+    button {
+      @include btn1;
+      &:last-child {
+        background-color: $clr1;
+        &:hover {
+          background-color: #f5ad56;
+        }
+      }
+    }
+  }
+}

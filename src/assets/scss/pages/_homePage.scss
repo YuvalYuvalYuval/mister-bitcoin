@@ -1,0 +1,32 @@
+.home-page {
+  background-color: $clr3;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  ul {
+    gap: 1rem;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+  img {
+    &.profile-img {
+      width: 220px;
+      border-radius: 50%;
+      background-color: $clr2;
+    }
+    &.btc-img {
+      width: 20px;
+    }
+  }
+  button {
+    @include btn1;
+    align-self: flex-end;
+    background-color: #d7545e;
+    &:hover {
+      background-color: tomato;
+    }
+  }
+}
